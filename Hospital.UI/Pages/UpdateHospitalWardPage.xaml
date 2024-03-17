@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital.UI.Pages.UpdateHospitalWardPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="UpdateHospitalWardPage">
+
+    <VerticalStackLayout Margin="25">
+        <Label Text="Редактирование информации больничной палаты:"/>
+        <Label Text=""/>
+        <Label Text="Номер палаты:"/>
+        <Entry Placeholder="Введите текст" Text="{Binding HospitalWard.RoomNumber}" />
+
+        <Label Text="Вместительность палаты:"/>
+        <Entry Placeholder="Введите текст" Text="{Binding HospitalWard.RoomСapacity}" />
+        <Button Text="Сохранить" Margin="5" Command="{Binding UpdateHospitalCommand}"/>
+        <Label HorizontalOptions="Center" VerticalOptions="Center" Margin="55" Text="{Binding Result, Mode=TwoWay}"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,11 @@
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\bin\Debug\net8.0\Hospital.FileAccess.deps.json
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\bin\Debug\net8.0\Hospital.FileAccess.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\bin\Debug\net8.0\Hospital.FileAccess.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\obj\Debug\net8.0\Hospital.FileAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\obj\Debug\net8.0\Hospital.FileAccess.AssemblyInfoInputs.cache
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\obj\Debug\net8.0\Hospital.FileAccess.AssemblyInfo.cs
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\obj\Debug\net8.0\Hospital.FileAccess.csproj.CoreCompileInputs.cache
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\obj\Debug\net8.0\Hospital.FileAccess.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\obj\Debug\net8.0\refint\Hospital.FileAccess.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\obj\Debug\net8.0\Hospital.FileAccess.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.FileAccess\obj\Debug\net8.0\ref\Hospital.FileAccess.dll

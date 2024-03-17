@@ -1,0 +1,15 @@
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\bin\Debug\net8.0\Hospital.Persistence.deps.json
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\bin\Debug\net8.0\Hospital.Persistence.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\bin\Debug\net8.0\Hospital.Persistence.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\bin\Debug\net8.0\Hospital.Domain.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\bin\Debug\net8.0\Hospital.Domain.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\Hospital.Persistence.csproj.AssemblyReference.cache
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\Hospital.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\Hospital.Persistence.AssemblyInfoInputs.cache
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\Hospital.Persistence.AssemblyInfo.cs
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\Hospital.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\Hospital.DAC2D5E0.Up2Date
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\Hospital.Persistence.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\refint\Hospital.Persistence.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\Hospital.Persistence.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Persistence\obj\Debug\net8.0\ref\Hospital.Persistence.dll

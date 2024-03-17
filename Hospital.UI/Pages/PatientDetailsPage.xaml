@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital.UI.Pages.PatientDetailsPage"
+             Title="PatientDetailsPage">
+    
+    <VerticalStackLayout Margin="25">
+        <Button Margin="3" Text="Редактировать" IsEnabled="{Binding isEnabled, Mode=TwoWay}" Command="{Binding UpdatePatientCommand}"/>
+        <Button Margin="3" Text="Удалить" IsEnabled="{Binding isEnabled, Mode=TwoWay}" Command="{Binding RemovePatientCommand}" />
+        <Label 
+    Text="{Binding Patient.PersonalData.Name, StringFormat='Пациент: {0}'}" />
+        <Label 
+            Text="{Binding Patient.Temperature, StringFormat='Температура тела: {0:F1}'}"/>
+        <Label 
+    Text="{Binding Patient.CheckInDate, StringFormat='Дата заселения в палату: {0}'}" />
+        <Label 
+Text="{Binding Patient.CheckOutDate, StringFormat='Дата выписки из палаты: {0}'}" />
+        <Label 
+Text="{Binding Patient.HospitalWardId, StringFormat='Номер больничной палаты: {0}'}" />
+        <Label HorizontalOptions="Center" VerticalOptions="Center" Margin="55" Text="{Binding Result, Mode=TwoWay}"/>
+    </VerticalStackLayout>
+</ContentPage>

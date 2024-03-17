@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:Hospital.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:cv="clr-namespace:Hospital.UI.ValueConverters"
+             x:Class="Hospital.UI.Pages.HospitalWardsPage"
+             Title="HospitalWardsPage">
+
+    <ContentPage.Resources>
+        <cv:RateToColorValueConverter x:Key="RateToColorValueConverter"/>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout>
+
+
+            <Button Margin="3" Text="Добавить больничную палату" Command="{Binding AddHospitalWardCommand}" />
+            <Button Margin="3" Text="Добавить пациента в больничную палату" Command="{Binding AddPatinetByHospitalWardCommand}"/>
+            <Button Margin="3" Text="Редактировать больничную палату" Command="{Binding UpdateHospitalWardCommand}" />
+
+            <Picker Margin="5" Title="Выберите больничную палату: "
+                ItemsSource="{Binding HospitalWards}"
+                ItemDisplayBinding="{Binding RoomNumber, StringFormat='Палата № {0}'}"
+                SelectedItem="{Binding SelectedHostipalWard}">
+
+        <Picker.Behaviors>
+            <toolkit:EventToCommandBehavior
+        EventName="SelectedIndexChanged"
+        Command="{Binding UpdateMembersListCommand}" />
+        </Picker.Behaviors>
+    </Picker>
+
+    <CollectionView Margin="5" ItemsSource="{Binding Patients}">
+        <CollectionView.Header>
+            <Grid Margin="5">
+                <Frame CornerRadius="14" BackgroundColor="Transparent">
+                    <StackLayout>
+                        <Label Text="{Binding SelectedHostipalWard.RoomNumber, StringFormat='Палата № {0}'}" FontSize="16"/>
+                        <Label Text="{Binding SelectedHostipalWard.RoomСapacity, StringFormat='Вместительность палаты: {0}'}" FontSize="16"/>
+                        <Label Text="{Binding SelectedHostipalWard.Count, StringFormat='Количество пациентов в палате: {0}'}" FontSize="16"/>
+                    </StackLayout>
+
+                </Frame>
+            </Grid>
+        </CollectionView.Header>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="3" >
+                    <Frame CornerRadius="14" BorderColor="{Binding Temperature, Converter={StaticResource RateToColorValueConverter}}">
+
+                                <Grid>
+                                    <Label Text="{Binding PersonalData.Name}" FontSize="16"/>
+                                    <HorizontalStackLayout>
+                                        <HorizontalStackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding
+                    Source={RelativeSource 
+                    AncestorType={x:Type models:HospitalWardsViewModel}},
+                    Path=ShowDetailsCommand}" 
+                                      CommandParameter="{Binding}"/>
+                                        </HorizontalStackLayout.GestureRecognizers>
+                                    </HorizontalStackLayout>
+                                </Grid>
+                        
+                    </Frame>
+                </Grid>
+
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
+</StackLayout>
+    </ScrollView>
+        
+
+        <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"
+                                    Command="{Binding UpdateGroupListCommand}"/>
+    </ContentPage.Behaviors>
+</ContentPage>

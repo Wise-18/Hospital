@@ -1,0 +1,17 @@
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\bin\Debug\net8.0\Hospital.Application.deps.json
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\bin\Debug\net8.0\Hospital.Application.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\bin\Debug\net8.0\Hospital.Application.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\bin\Debug\net8.0\Hospital.Domain.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\bin\Debug\net8.0\Hospital.Persistence.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\bin\Debug\net8.0\Hospital.Domain.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\bin\Debug\net8.0\Hospital.Persistence.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\Hospital.Application.csproj.AssemblyReference.cache
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\Hospital.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\Hospital.Application.AssemblyInfoInputs.cache
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\Hospital.Application.AssemblyInfo.cs
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\Hospital.Application.csproj.CoreCompileInputs.cache
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\Hospital.EB8C294B.Up2Date
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\Hospital.Application.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\refint\Hospital.Application.dll
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\Hospital.Application.pdb
+C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.Application\obj\Debug\net8.0\ref\Hospital.Application.dll

@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hospital.UI
+build_property.ProjectDir = C:\Users\Сергей Старченко\Desktop\Hospital\Hospital.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/Pages/AddHospitalWardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.Pages.AddHospitalWardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddHospitalWardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddHospitalWardPage.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/Pages/AddPatientByHospitalWardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.Pages.AddPatientByHospitalWardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddPatientByHospitalWardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddPatientByHospitalWardPage.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/Pages/HospitalWardsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.Pages.HospitalWardsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HospitalWardsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HospitalWardsPage.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/Pages/PatientDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.Pages.PatientDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PatientDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PatientDetailsPage.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/Pages/UpdateHospitalWardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.Pages.UpdateHospitalWardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\UpdateHospitalWardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\UpdateHospitalWardPage.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/Pages/UpdatePatientPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.Pages.UpdatePatientPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\UpdatePatientPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\UpdatePatientPage.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Сергей Старченко/Desktop/Hospital/Hospital.UI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Hospital.UI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
